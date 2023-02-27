@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family : 'GmarketSansMedium';
+    src : url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+body{
+	font-family : 'GmarketSansMedium';
+}
+h1 {
+	text-align : center;
+}
+table, .t1, .t2 , .menuBtn{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.type , .bookDetail{
+	background-color : OldLace;
+}
+button , .btn{
+	font-family : 'GmarketSansMedium';
+	display:flex;
+	justify-content:center;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    background-color : OldLace;
+    word-break:keep-all;
+}
+
+.bookExplain{
+	text-align : justify;
+}
+
+img{
+	width : 250px;
+}
+
+input[type="text" i] {
+    padding: 5px 10px;
+    font-family : 'GmarketSansMedium';
+}
+
+.t1_1, .t2_1{
+	word-break:keep-all;
+	white-space:pre-wrap;
+}
