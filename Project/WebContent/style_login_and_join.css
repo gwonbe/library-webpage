@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family : 'GmarketSansMedium';
+    src : url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+body{
+	text-align : center;
+	font-family : 'GmarketSansMedium';
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align : center;
+}
+
+div{
+	text-align : center;
+	height : 200px;
+	padding : 5%;
+}
+
+form{
+	text-align : center;
+	height : 200px;
+	padding : 1%;
+}
+
+table{
+	text-align : center;
+	padding : 3%;
+	height : 250px;
+	background-color : OldLace;
+}
+
+.btnA{
+	text-align : center;
+	font-size : 20px;
+	background-color : OldLace;
+	padding : 3%;
+	border : 3px solid Black;
+}
+
+.DivForForm{
+	text-align : center;
+	height : 200px;
+	padding : 5%;
+}
